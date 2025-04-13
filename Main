@@ -113,10 +113,10 @@ local Slider = MainTab:CreateSlider({
  })
  
  local Button = MainTab:CreateButton({
-	Name = "📍 tp tool ",
-	Callback = function()
-			 local IsStudio = false
-			 mouse = game.Players.LocalPlayer:GetMouse()
+    Name = " tp tool ",
+    Callback = function()
+             local IsStudio = false
+             mouse = game.Players.LocalPlayer:GetMouse()
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
 tool.Name = "Click Teleport"
@@ -126,15 +126,6 @@ pos = CFrame.new(pos.X,pos.Y,pos.Z)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 end)
 tool.Parent = game.Players.LocalPlayer.Backpack
- 
-	end,
- })
- 
- local Button = MainTab:CreateButton({
-    Name = "🔍 Infinite Zoom",
-    Callback = function()
-             local IsStudio = false
-			 game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = math.huge
  
     end,
  })
@@ -165,7 +156,7 @@ local Players = game:GetService("Players");
 local Player = Players.LocalPlayer
 local Terrain = Workspace.Terrain
 
-Terrain:FillBlock(CFrame.new(66, -10, 72.5), Vector3.new(10000, 16, 10000), Enum.Material.Asphalt)
+Terrain:FillBlock(CFrame.new(66, -10, 72.5), Vector3.new(7500, 16, 7500), Enum.Material.Asphalt)
 
    end,
 })
@@ -194,7 +185,7 @@ local Button = MainTab:CreateButton({
     Name = "⌛ Stats | Anti Afk ",
     Callback = function()
              local IsStudio = false
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Its434/Scripter/refs/heads/main/Stats"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Its434/Random/refs/heads/main/Stats"))()
  
     end,
  })
@@ -205,7 +196,7 @@ local Button = MainTab:CreateButton({
             local IsStudio = false
 game:GetService("VoiceChatService"):joinVoice()
    end,
-})aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+})
 
 local MainTab = Window:CreateTab("🔞Troll", nil) -- Title, Image
 
@@ -882,7 +873,7 @@ end
     Callback = function()
              local IsStudio = false
              pcall(function()
-                https://raw.githubusercontent.com/Its434/Random/refs/heads/main/Stats"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Its434/Scripts/refs/heads/main/Stats"))()
                 end)
     end,
  
