@@ -131,7 +131,7 @@ tool.Parent = game.Players.LocalPlayer.Backpack
  })
  
  local Button = MainTab:CreateButton({
-    Name = " tp tool ",
+    Name = " 🔍 Infinite Zoom ",
     Callback = function()
 		local IsStudio = false
 		game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = math.huge
