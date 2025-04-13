@@ -130,6 +130,15 @@ tool.Parent = game.Players.LocalPlayer.Backpack
     end,
  })
  
+ local Button = MainTab:CreateButton({
+    Name = " tp tool ",
+    Callback = function()
+		local IsStudio = false
+		game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = math.huge
+
+end,
+ })
+ 
  local Section = MainTab:CreateSection("Misc")
  
  Rayfield:Notify({
